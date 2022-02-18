@@ -8,7 +8,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/boltdb/bolt"
+	"github.com/hak5/bolt"
 )
 
 // Ensure that committing a closed transaction returns an error.
